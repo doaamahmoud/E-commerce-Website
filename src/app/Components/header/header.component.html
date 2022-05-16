@@ -1,0 +1,158 @@
+<header class="container-fluid p-0 m-0">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" alt="" width="100" height="30">
+        </a>
+        <button class="navbar-toggler" style="backgroundColor:black; color:#D8BD43" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarScroll">
+          <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll mx-auto" style="--bs-scroll-height: 100px;">
+            <li class="nav-item p-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item p-3">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item p-3">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item p-3">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+
+          <a style="border:none"  routerLink="/cart" class="btn">
+            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+          </a>
+        
+          <form class="d-flex">
+            <button class="btn " routerLink='/Login' routerLinkActive="active" type="submit">Login</button>
+          </form>
+        </div>
+      </div>
+
+      
+
+    </nav>
+    
+     <!-- carsole  -->
+     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="assets/slide1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Best Furniture Design</h4>
+            <p>Available on Furnish</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="assets/slide2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Best Furniture Design</h4>
+            <p>Available on Furnish</p></div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/slide3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Best Furniture Design</h1>
+            <p>Available on Furnish</p> </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </header>
+      <!-- <img src="/assets/wall-background.jpg" width="100%" height="400px"/> -->
+      <script>
+      var myCarousel = document.querySelector('#myCarousel')
+    var carousel = new bootstrap.Carousel(myCarousel)
+      </script>
+
+<div class="section padding_layout_1">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="full">
+                <div class="main_heading text_align_center">
+                   <h2><span>Why choose us</span></h2>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-md-12">
+             <div class="row">
+                <div class="col-md-4">
+                   <div class="full">
+                      <div class="Services_blog_inner">
+                         <div class="icon"><img src="assets/si1.png" alt="#"></div>
+                         <h4 class="Services-heading">Best Quality</h4>
+                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                   <div class="full">
+                      <div class="Services_blog_inner">
+                         <div class="icon"><img src="assets/si2.png" alt="#"></div>
+                         <h4 class="Services-heading">Experienced</h4>
+                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                   <div class="full">
+                      <div class="Services_blog_inner">
+                         <div class="icon"><img src="assets/si3.png" alt="#"></div>
+                         <h4 class="Services-heading">Expert team</h4>
+                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                   <div class="full">
+                      <div class="Services_blog_inner">
+                         <div class="icon"><img src="assets/si4.png" alt="#"></div>
+                         <h4 class="Services-heading">Affordable Services</h4>
+                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                   <div class="full">
+                      <div class="Services_blog_inner">
+                         <div class="icon"><img src="assets/si5.png" alt="#"></div>
+                         <h4 class="Services-heading">90 Days warranty</h4>
+                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                   <div class="full">
+                      <div class="Services_blog_inner">
+                         <div class="icon"><img src="assets/si6.png" alt="#"></div>
+                         <h4 class="Services-heading">Award winning</h4>
+                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+                      </div>
+                   </div>
+                </div>
+
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
